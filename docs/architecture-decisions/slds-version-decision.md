@@ -1,0 +1,1 @@
+Salesforce Developer Org has SLDS2 available so it was decided to opt for this package as it is the most recent and up to date.

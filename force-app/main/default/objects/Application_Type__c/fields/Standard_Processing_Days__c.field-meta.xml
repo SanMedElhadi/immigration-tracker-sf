@@ -3,7 +3,7 @@
     <fullName>Standard_Processing_Days__c</fullName>
     <externalId>false</externalId>
     <label>Standard Processing Days</label>
-    <precision>10</precision>
+    <precision>4</precision>
     <required>false</required>
     <scale>0</scale>
     <trackTrending>false</trackTrending>

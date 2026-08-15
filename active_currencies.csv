@@ -1,0 +1,5 @@
+IsoCode,ConversionRate,DecimalPlaces,IsActive,IsCorporate
+DZD,1,2,true,true
+USD,132.73,2,true,false
+EUR,153.61,2,true,false
+CAD,95.68,2,true,false

@@ -1,0 +1,124 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Authority__c",
+        "referenceId": "Authority_IRCC"
+      },
+      "Name": "IRCC",
+      "Country__c": "CA",
+      "Full_Legal_Name__c": "Immigration, Refugees and Citizenship Canada",
+      "Portal_URL__c": "https://www.canada.ca/en/immigration-refugees-citizenship.html",
+      "CurrencyIsoCode": "CAD",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Authority__c",
+        "referenceId": "Authority_USCIS"
+      },
+      "Name": "USCIS",
+      "Country__c": "US",
+      "Full_Legal_Name__c": "U.S. Citizenship and Immigration Services",
+      "Portal_URL__c": "https://www.uscis.gov",
+      "CurrencyIsoCode": "USD",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Authority__c",
+        "referenceId": "Authority_UKVI"
+      },
+      "Name": "UKVI",
+      "Country__c": "GB",
+      "Full_Legal_Name__c": "UK Visas and Immigration",
+      "Portal_URL__c": "https://www.gov.uk/government/organisations/uk-visas-and-immigration",
+      "CurrencyIsoCode": "GBP",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Authority__c",
+        "referenceId": "Authority_BAMF"
+      },
+      "Name": "BAMF",
+      "Country__c": "DE",
+      "Full_Legal_Name__c": "Bundesamt fur Migration und Fluchtlinge",
+      "Portal_URL__c": "https://www.bamf.de",
+      "CurrencyIsoCode": "EUR",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Authority__c",
+        "referenceId": "Authority_IND"
+      },
+      "Name": "IND",
+      "Country__c": "NL",
+      "Full_Legal_Name__c": "Immigratie- en Naturalisatiedienst",
+      "Portal_URL__c": "https://ind.nl",
+      "CurrencyIsoCode": "EUR",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Authority__c",
+        "referenceId": "Authority_Home_Affairs"
+      },
+      "Name": "Home Affairs",
+      "Country__c": "AU",
+      "Full_Legal_Name__c": "Department of Home Affairs",
+      "Portal_URL__c": "https://immi.homeaffairs.gov.au",
+      "CurrencyIsoCode": "AUD",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Authority__c",
+        "referenceId": "Authority_INZ"
+      },
+      "Name": "INZ",
+      "Country__c": "NZ",
+      "Full_Legal_Name__c": "Immigration New Zealand",
+      "Portal_URL__c": "https://www.immigration.govt.nz",
+      "CurrencyIsoCode": "NZD",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Authority__c",
+        "referenceId": "Authority_Migrationsverket"
+      },
+      "Name": "Migrationsverket",
+      "Country__c": "SE",
+      "Full_Legal_Name__c": "Swedish Migration Agency",
+      "Portal_URL__c": "https://www.migrationsverket.se",
+      "CurrencyIsoCode": "SEK",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Authority__c",
+        "referenceId": "Authority_AIMA"
+      },
+      "Name": "AIMA",
+      "Country__c": "PT",
+      "Full_Legal_Name__c": "Agencia para a Integracao, Migracoes e Asilo",
+      "Portal_URL__c": "https://aima.gov.pt",
+      "CurrencyIsoCode": "EUR",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Authority__c",
+        "referenceId": "Authority_ANEF"
+      },
+      "Name": "ANEF",
+      "Country__c": "FR",
+      "Full_Legal_Name__c": "Administration Numerique pour les Etrangers en France",
+      "Portal_URL__c": "https://administration-etrangers-en-france.interieur.gouv.fr",
+      "CurrencyIsoCode": "EUR",
+      "Is_Active__c": true
+    }
+  ]
+}

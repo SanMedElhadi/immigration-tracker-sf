@@ -1,0 +1,10 @@
+[
+  {
+    "sobject": "Authority__c",
+    "saveRefs": true,
+    "resolveRefs": false,
+    "files": [
+      "Authority.json"
+    ]
+  }
+]

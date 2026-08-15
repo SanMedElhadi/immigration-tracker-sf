@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Objective__c</fullName>
+    <label>Objective</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Temporary Residence</fullName>
+                <default>false</default>
+                <label>Temporary Residence</label>
+            </value>
+            <value>
+                <fullName>Permanent Residence</fullName>
+                <default>false</default>
+                <label>Permanent Residence</label>
+            </value>
+            <value>
+                <fullName>Citizenship</fullName>
+                <default>false</default>
+                <label>Citizenship</label>
+            </value>
+            <value>
+                <fullName>Family Reunification</fullName>
+                <default>false</default>
+                <label>Family Reunification</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Health__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Stage__c,&apos;Approved&apos;),&apos;Complete&apos;, IF(Next_Deadline_Date__c &lt; TODAY(),&apos;Overdue&apos;, IF(Attention_Required__c,&apos;Attention&apos;,&apos;On Track&apos;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Case Health</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

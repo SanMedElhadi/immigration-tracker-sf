@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Household__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Household</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Immigration Cases</relationshipLabel>
+    <relationshipName>Immigration_Cases</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

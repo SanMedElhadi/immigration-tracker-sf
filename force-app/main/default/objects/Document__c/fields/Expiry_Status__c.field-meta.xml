@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expiry_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK( Days_Until_Expiry__c ), &apos;No Expiry&apos;, IF (Days_Until_Expiry__c &gt; 90, &apos;Valid&apos;, IF (Days_Until_Expiry__c &gt; 0, &apos;Expiring Soon (≤90d)&apos;, &apos;Expired&apos;)))</formula>
+    <label>Expiry Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

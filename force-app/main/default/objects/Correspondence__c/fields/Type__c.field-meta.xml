@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Receipt</fullName>
+                <default>false</default>
+                <label>Receipt</label>
+            </value>
+            <value>
+                <fullName>Acknowledgement</fullName>
+                <default>false</default>
+                <label>Acknowledgement</label>
+            </value>
+            <value>
+                <fullName>Request for Evidence</fullName>
+                <default>false</default>
+                <label>Request for Evidence</label>
+            </value>
+            <value>
+                <fullName>Interview Notice</fullName>
+                <default>false</default>
+                <label>Interview Notice</label>
+            </value>
+            <value>
+                <fullName>Biometrics Notice</fullName>
+                <default>false</default>
+                <label>Biometrics Notice</label>
+            </value>
+            <value>
+                <fullName>Decision</fullName>
+                <default>false</default>
+                <label>Decision</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

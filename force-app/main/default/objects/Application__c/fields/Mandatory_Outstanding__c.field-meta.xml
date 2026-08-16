@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandatory_Outstanding__c</fullName>
+    <label>Mandatory Outstanding</label>
+    <summaryFilterItems>
+        <field>Checklist_Item__c.Is_Mandatory_snapshot__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Checklist_Item__c.Status__c</field>
+        <operation>notEqual</operation>
+        <value>Verified, Waived</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Checklist_Item__c.Application__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

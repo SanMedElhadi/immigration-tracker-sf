@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Overdue__c</fullName>
+    <formula>NOT(ISBLANK(Expected_Decision_Date__c)) &amp;&amp; Expected_Decision_Date__c &lt; TODAY() &amp;&amp; NOT(Is_Closed__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Overdue</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

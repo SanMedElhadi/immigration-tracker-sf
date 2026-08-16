@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Method__c</fullName>
+    <label>Payment Method</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cash</fullName>
+                <default>false</default>
+                <label>Cash</label>
+            </value>
+            <value>
+                <fullName>Credit Card - Visa</fullName>
+                <default>false</default>
+                <label>Credit Card - Visa</label>
+            </value>
+            <value>
+                <fullName>Credit Card - mastercard</fullName>
+                <default>false</default>
+                <label>Credit Card - mastercard</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

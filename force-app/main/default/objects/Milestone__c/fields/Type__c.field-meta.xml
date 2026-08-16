@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Milestone Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>Fee Paid</fullName>
+                <default>false</default>
+                <label>Fee Paid</label>
+            </value>
+            <value>
+                <fullName>Acknowledged</fullName>
+                <default>false</default>
+                <label>Acknowledged</label>
+            </value>
+            <value>
+                <fullName>Biometrics Scheduled</fullName>
+                <default>false</default>
+                <label>Biometrics Scheduled</label>
+            </value>
+            <value>
+                <fullName>Biometrics Completed</fullName>
+                <default>false</default>
+                <label>Biometrics Completed</label>
+            </value>
+            <value>
+                <fullName>Medical Completed</fullName>
+                <default>false</default>
+                <label>Medical Completed</label>
+            </value>
+            <value>
+                <fullName>Interview Scheduled</fullName>
+                <default>false</default>
+                <label>Interview Scheduled</label>
+            </value>
+            <value>
+                <fullName>Interview Completed</fullName>
+                <default>false</default>
+                <label>Interview Completed</label>
+            </value>
+            <value>
+                <fullName>Additional Info Requested</fullName>
+                <default>false</default>
+                <label>Additional Info Requested</label>
+            </value>
+            <value>
+                <fullName>Decision</fullName>
+                <default>false</default>
+                <label>Decision</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

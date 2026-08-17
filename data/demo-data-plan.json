@@ -6,5 +6,29 @@
     "files": [
       "Authority.json"
     ]
+  },
+  {
+    "sobject": "Document_Type__c",
+    "saveRefs": true,
+    "resolveRefs": false,
+    "files": [
+      "DocumentType.json"
+    ]
+  },
+  {
+    "sobject": "Application_Type__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": [
+      "ApplicationType.json"
+    ]
+  },
+  {
+    "sobject": "Requirement__c",
+    "saveRefs": false,
+    "resolveRefs": true,
+    "files": [
+      "Requirement.json"
+    ]
   }
 ]

@@ -1,0 +1,349 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_PASSPORT"
+      },
+      "Name": "Passport",
+      "Code__c": "PASSPORT",
+      "Category__c": "Identity",
+      "Has_Expiry__c": true,
+      "Is_Issuer_Specific__c": true,
+      "Translation_Required__c": false,
+      "Guidance__c": "Biographical page plus every page bearing a stamp or visa.",
+      "Typical_Validity_Days__c": 3650
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_NATID"
+      },
+      "Name": "National Identity Card",
+      "Code__c": "NATID",
+      "Category__c": "Identity",
+      "Has_Expiry__c": true,
+      "Is_Issuer_Specific__c": true,
+      "Translation_Required__c": true,
+      "Guidance__c": "Both sides. Required only where the destination authority accepts it in place of a passport.",
+      "Typical_Validity_Days__c": 3650
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_PHOTO"
+      },
+      "Name": "Passport Photograph",
+      "Code__c": "PHOTO",
+      "Category__c": "Identity",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": false,
+      "Translation_Required__c": false,
+      "Guidance__c": "Dimensions and background colour vary by authority - check the application type guidance."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_BIRTHCERT"
+      },
+      "Name": "Birth Certificate",
+      "Code__c": "BIRTHCERT",
+      "Category__c": "Civil Status",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": true,
+      "Translation_Required__c": true,
+      "Guidance__c": "Long-form certificate showing both parents where available."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_MARRCERT"
+      },
+      "Name": "Marriage Certificate",
+      "Code__c": "MARRCERT",
+      "Category__c": "Civil Status",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": true,
+      "Translation_Required__c": true,
+      "Guidance__c": "Required for any spousal or accompanying-partner claim."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_DIVORCE"
+      },
+      "Name": "Divorce Decree",
+      "Code__c": "DIVORCE",
+      "Category__c": "Civil Status",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": true,
+      "Translation_Required__c": true,
+      "Guidance__c": "Needed to establish that a previous marriage was dissolved."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_FAMREG"
+      },
+      "Name": "Family Register",
+      "Code__c": "FAMREG",
+      "Category__c": "Civil Status",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": true,
+      "Translation_Required__c": true,
+      "Guidance__c": "Livret de famille, family book, or equivalent civil register extract."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_BANKSTMT"
+      },
+      "Name": "Bank Statement",
+      "Code__c": "BANKSTMT",
+      "Category__c": "Financial",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": false,
+      "Translation_Required__c": true,
+      "Guidance__c": "Official statement bearing the institution's letterhead or stamp."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_FUNDS"
+      },
+      "Name": "Proof of Funds Letter",
+      "Code__c": "FUNDS",
+      "Category__c": "Financial",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": false,
+      "Translation_Required__c": true,
+      "Guidance__c": "Must state account balances and the date the account was opened."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_TAXRET"
+      },
+      "Name": "Tax Return",
+      "Code__c": "TAXRET",
+      "Category__c": "Financial",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": true,
+      "Translation_Required__c": true,
+      "Guidance__c": "Most recent assessed return."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_PAYSLIP"
+      },
+      "Name": "Payslips",
+      "Code__c": "PAYSLIP",
+      "Category__c": "Financial",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": false,
+      "Translation_Required__c": true,
+      "Guidance__c": "Consecutive payslips covering the period requested."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_SPONSUND"
+      },
+      "Name": "Sponsorship Undertaking",
+      "Code__c": "SPONSUND",
+      "Category__c": "Financial",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": true,
+      "Translation_Required__c": true,
+      "Guidance__c": "Signed undertaking by the sponsor accepting financial responsibility."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_DEGREE"
+      },
+      "Name": "Degree Certificate",
+      "Code__c": "DEGREE",
+      "Category__c": "Educational",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": true,
+      "Translation_Required__c": true,
+      "Guidance__c": "Final award certificate, not a provisional statement of results."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_TRANSCRIPT"
+      },
+      "Name": "Academic Transcript",
+      "Code__c": "TRANSCRIPT",
+      "Category__c": "Educational",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": true,
+      "Translation_Required__c": true,
+      "Guidance__c": "Complete transcript covering all years of study."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_ECA"
+      },
+      "Name": "Educational Credential Assessment",
+      "Code__c": "ECA",
+      "Category__c": "Educational",
+      "Has_Expiry__c": true,
+      "Is_Issuer_Specific__c": false,
+      "Translation_Required__c": false,
+      "Guidance__c": "Issued by an authority-designated assessment organisation.",
+      "Typical_Validity_Days__c": 1825
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_LANGTEST"
+      },
+      "Name": "Language Test Result",
+      "Code__c": "LANGTEST",
+      "Category__c": "Educational",
+      "Has_Expiry__c": true,
+      "Is_Issuer_Specific__c": false,
+      "Translation_Required__c": false,
+      "Guidance__c": "Test must be on the authority's accepted list and still within its validity window.",
+      "Typical_Validity_Days__c": 730
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_MEDEXAM"
+      },
+      "Name": "Medical Examination Report",
+      "Code__c": "MEDEXAM",
+      "Category__c": "Medical",
+      "Has_Expiry__c": true,
+      "Is_Issuer_Specific__c": false,
+      "Translation_Required__c": false,
+      "Guidance__c": "Completed by a panel physician approved by the destination authority.",
+      "Typical_Validity_Days__c": 365
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_VACCREC"
+      },
+      "Name": "Vaccination Record",
+      "Code__c": "VACCREC",
+      "Category__c": "Medical",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": false,
+      "Translation_Required__c": true,
+      "Guidance__c": "Complete immunisation history."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_HEALTHINS"
+      },
+      "Name": "Health Insurance Certificate",
+      "Code__c": "HEALTHINS",
+      "Category__c": "Medical",
+      "Has_Expiry__c": true,
+      "Is_Issuer_Specific__c": false,
+      "Translation_Required__c": true,
+      "Guidance__c": "Must show coverage amount, validity dates and territorial scope.",
+      "Typical_Validity_Days__c": 365
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_PCC"
+      },
+      "Name": "Police Clearance Certificate",
+      "Code__c": "PCC",
+      "Category__c": "Legal",
+      "Has_Expiry__c": true,
+      "Is_Issuer_Specific__c": true,
+      "Translation_Required__c": true,
+      "Guidance__c": "One per country of residence exceeding six months since the age of 18.",
+      "Typical_Validity_Days__c": 180
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_COURTREC"
+      },
+      "Name": "Court Records",
+      "Code__c": "COURTREC",
+      "Category__c": "Legal",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": true,
+      "Translation_Required__c": true,
+      "Guidance__c": "Required where any charge or conviction has been declared."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_AFFIDAVIT"
+      },
+      "Name": "Affidavit of Relationship",
+      "Code__c": "AFFIDAVIT",
+      "Category__c": "Legal",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": true,
+      "Translation_Required__c": true,
+      "Guidance__c": "Sworn statement used where civil documentation is unavailable."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_EMPREF"
+      },
+      "Name": "Employment Reference Letter",
+      "Code__c": "EMPREF",
+      "Category__c": "Employment",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": false,
+      "Translation_Required__c": true,
+      "Guidance__c": "On company letterhead, stating role, dates, hours and duties."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_JOBOFFER"
+      },
+      "Name": "Job Offer Letter",
+      "Code__c": "JOBOFFER",
+      "Category__c": "Employment",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": false,
+      "Translation_Required__c": true,
+      "Guidance__c": "Signed by the employer and stating salary and start date."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_EMPCONTRACT"
+      },
+      "Name": "Employment Contract",
+      "Code__c": "EMPCONTRACT",
+      "Category__c": "Employment",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": false,
+      "Translation_Required__c": true,
+      "Guidance__c": "Fully executed contract."
+    },
+    {
+      "attributes": {
+        "type": "Document_Type__c",
+        "referenceId": "DT_CV"
+      },
+      "Name": "Curriculum Vitae",
+      "Code__c": "CV",
+      "Category__c": "Employment",
+      "Has_Expiry__c": false,
+      "Is_Issuer_Specific__c": false,
+      "Translation_Required__c": true,
+      "Guidance__c": "Chronological, with no unexplained gaps."
+    }
+  ]
+}

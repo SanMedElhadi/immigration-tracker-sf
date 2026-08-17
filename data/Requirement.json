@@ -1,0 +1,791 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_001"
+      },
+      "Application_Type__c": "@AT_CA_PR_EE",
+      "Document_Type__c": "@DT_PASSPORT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 1,
+      "Instructions__c": "Valid for at least six months beyond the intended date of travel."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_002"
+      },
+      "Application_Type__c": "@AT_CA_PR_EE",
+      "Document_Type__c": "@DT_PASSPORT",
+      "Applies_To__c": "Each Dependent",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 2,
+      "Instructions__c": "One per accompanying dependent."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_003"
+      },
+      "Application_Type__c": "@AT_CA_PR_EE",
+      "Document_Type__c": "@DT_LANGTEST",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 3,
+      "Instructions__c": "IELTS General, CELPIP or TEF, still inside its two-year validity on the date of submission."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_004"
+      },
+      "Application_Type__c": "@AT_CA_PR_EE",
+      "Document_Type__c": "@DT_ECA",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 4,
+      "Instructions__c": "Required for any credential obtained outside Canada."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_005"
+      },
+      "Application_Type__c": "@AT_CA_PR_EE",
+      "Document_Type__c": "@DT_PCC",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 5,
+      "Max_Age_Days__c": 180,
+      "Instructions__c": "One per country of residence exceeding six months since age 18."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_006"
+      },
+      "Application_Type__c": "@AT_CA_PR_EE",
+      "Document_Type__c": "@DT_MEDEXAM",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 6,
+      "Instructions__c": "Panel physician only. Book after receiving the medical instruction letter."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_007"
+      },
+      "Application_Type__c": "@AT_CA_PR_EE",
+      "Document_Type__c": "@DT_FUNDS",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 7,
+      "Max_Age_Days__c": 90,
+      "Instructions__c": "Settlement funds evidence. Statement must be dated within 90 days of submission."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_008"
+      },
+      "Application_Type__c": "@AT_CA_PR_EE",
+      "Document_Type__c": "@DT_EMPREF",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 8,
+      "Instructions__c": "One per position claimed for points."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_009"
+      },
+      "Application_Type__c": "@AT_CA_PR_EE",
+      "Document_Type__c": "@DT_PHOTO",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 9,
+      "Max_Age_Days__c": 180,
+      "Instructions__c": "Taken within the last six months."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_010"
+      },
+      "Application_Type__c": "@AT_CA_SPOUSE",
+      "Document_Type__c": "@DT_PASSPORT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 1,
+      "Instructions__c": "Applicant passport."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_011"
+      },
+      "Application_Type__c": "@AT_CA_SPOUSE",
+      "Document_Type__c": "@DT_MARRCERT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 2,
+      "Instructions__c": "Or evidence of a common-law relationship covering twelve continuous months."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_012"
+      },
+      "Application_Type__c": "@AT_CA_SPOUSE",
+      "Document_Type__c": "@DT_BIRTHCERT",
+      "Applies_To__c": "Each Dependent",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 3,
+      "Instructions__c": "One per accompanying dependent child."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_013"
+      },
+      "Application_Type__c": "@AT_CA_SPOUSE",
+      "Document_Type__c": "@DT_PCC",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 4,
+      "Max_Age_Days__c": 180
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_014"
+      },
+      "Application_Type__c": "@AT_CA_SPOUSE",
+      "Document_Type__c": "@DT_MEDEXAM",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 5
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_015"
+      },
+      "Application_Type__c": "@AT_CA_SPOUSE",
+      "Document_Type__c": "@DT_SPONSUND",
+      "Applies_To__c": "Sponsor",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 6,
+      "Instructions__c": "Signed by the sponsor, not the applicant."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_016"
+      },
+      "Application_Type__c": "@AT_CA_SPOUSE",
+      "Document_Type__c": "@DT_TAXRET",
+      "Applies_To__c": "Sponsor",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 7,
+      "Instructions__c": "Sponsor's most recent Notice of Assessment."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_017"
+      },
+      "Application_Type__c": "@AT_CA_SPOUSE",
+      "Document_Type__c": "@DT_AFFIDAVIT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": false,
+      "Sort_Order__c": 8,
+      "Instructions__c": "Only where civil documentation of the relationship is unavailable."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_018"
+      },
+      "Application_Type__c": "@AT_CA_STUDY",
+      "Document_Type__c": "@DT_PASSPORT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 1
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_019"
+      },
+      "Application_Type__c": "@AT_CA_STUDY",
+      "Document_Type__c": "@DT_JOBOFFER",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": false,
+      "Sort_Order__c": 2,
+      "Instructions__c": "Not applicable unless claiming concurrent work authorisation."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_020"
+      },
+      "Application_Type__c": "@AT_CA_STUDY",
+      "Document_Type__c": "@DT_FUNDS",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 3,
+      "Max_Age_Days__c": 90,
+      "Instructions__c": "Tuition plus living costs for the first year."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_021"
+      },
+      "Application_Type__c": "@AT_CA_STUDY",
+      "Document_Type__c": "@DT_TRANSCRIPT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 4
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_022"
+      },
+      "Application_Type__c": "@AT_CA_STUDY",
+      "Document_Type__c": "@DT_LANGTEST",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 5
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_023"
+      },
+      "Application_Type__c": "@AT_CA_STUDY",
+      "Document_Type__c": "@DT_MEDEXAM",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": false,
+      "Sort_Order__c": 6,
+      "Instructions__c": "Required only for stays exceeding six months from designated countries."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_024"
+      },
+      "Application_Type__c": "@AT_CA_CITIZEN",
+      "Document_Type__c": "@DT_PASSPORT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 1,
+      "Instructions__c": "All passports held during the eligibility period."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_025"
+      },
+      "Application_Type__c": "@AT_CA_CITIZEN",
+      "Document_Type__c": "@DT_LANGTEST",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 2,
+      "Instructions__c": "Applicants aged 18 to 54 only."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_026"
+      },
+      "Application_Type__c": "@AT_CA_CITIZEN",
+      "Document_Type__c": "@DT_TAXRET",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 3,
+      "Instructions__c": "Three years of filings within the five-year period."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_027"
+      },
+      "Application_Type__c": "@AT_CA_CITIZEN",
+      "Document_Type__c": "@DT_PHOTO",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 4,
+      "Max_Age_Days__c": 180
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_028"
+      },
+      "Application_Type__c": "@AT_US_I130",
+      "Document_Type__c": "@DT_PASSPORT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 1,
+      "Instructions__c": "Beneficiary passport biographic page."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_029"
+      },
+      "Application_Type__c": "@AT_US_I130",
+      "Document_Type__c": "@DT_MARRCERT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 2,
+      "Instructions__c": "Where the petition is spouse-based."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_030"
+      },
+      "Application_Type__c": "@AT_US_I130",
+      "Document_Type__c": "@DT_BIRTHCERT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 3,
+      "Instructions__c": "Beneficiary birth certificate with certified translation."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_031"
+      },
+      "Application_Type__c": "@AT_US_I130",
+      "Document_Type__c": "@DT_PHOTO",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 4,
+      "Max_Age_Days__c": 180
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_032"
+      },
+      "Application_Type__c": "@AT_US_I130",
+      "Document_Type__c": "@DT_DIVORCE",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": false,
+      "Sort_Order__c": 5,
+      "Instructions__c": "Required only where either party was previously married."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_033"
+      },
+      "Application_Type__c": "@AT_US_I485",
+      "Document_Type__c": "@DT_MEDEXAM",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 1,
+      "Instructions__c": "Form I-693, sealed by the civil surgeon."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_034"
+      },
+      "Application_Type__c": "@AT_US_I485",
+      "Document_Type__c": "@DT_BIRTHCERT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 2
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_035"
+      },
+      "Application_Type__c": "@AT_US_I485",
+      "Document_Type__c": "@DT_PASSPORT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 3
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_036"
+      },
+      "Application_Type__c": "@AT_US_I485",
+      "Document_Type__c": "@DT_PAYSLIP",
+      "Applies_To__c": "Sponsor",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 4,
+      "Max_Age_Days__c": 90,
+      "Instructions__c": "Petitioner income evidence for the affidavit of support."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_037"
+      },
+      "Application_Type__c": "@AT_US_I485",
+      "Document_Type__c": "@DT_TAXRET",
+      "Applies_To__c": "Sponsor",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 5,
+      "Instructions__c": "Most recent federal return."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_038"
+      },
+      "Application_Type__c": "@AT_US_I485",
+      "Document_Type__c": "@DT_PHOTO",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 6,
+      "Max_Age_Days__c": 180
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_039"
+      },
+      "Application_Type__c": "@AT_US_I485",
+      "Document_Type__c": "@DT_COURTREC",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": false,
+      "Sort_Order__c": 7,
+      "Instructions__c": "Required where any arrest or charge has been declared."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_040"
+      },
+      "Application_Type__c": "@AT_US_I765",
+      "Document_Type__c": "@DT_PASSPORT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 1
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_041"
+      },
+      "Application_Type__c": "@AT_US_I765",
+      "Document_Type__c": "@DT_PHOTO",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 2,
+      "Max_Age_Days__c": 180
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_042"
+      },
+      "Application_Type__c": "@AT_US_N400",
+      "Document_Type__c": "@DT_PASSPORT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 1,
+      "Instructions__c": "All passports covering the continuous-residence period."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_043"
+      },
+      "Application_Type__c": "@AT_US_N400",
+      "Document_Type__c": "@DT_TAXRET",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 2,
+      "Instructions__c": "Five years of returns."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_044"
+      },
+      "Application_Type__c": "@AT_US_N400",
+      "Document_Type__c": "@DT_MARRCERT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": false,
+      "Sort_Order__c": 3,
+      "Instructions__c": "Where filing on the three-year marriage basis."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_045"
+      },
+      "Application_Type__c": "@AT_DE_SKILLED",
+      "Document_Type__c": "@DT_PASSPORT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 1
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_046"
+      },
+      "Application_Type__c": "@AT_DE_SKILLED",
+      "Document_Type__c": "@DT_DEGREE",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 2,
+      "Instructions__c": "Recognition through the ANABIN database is required before filing."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_047"
+      },
+      "Application_Type__c": "@AT_DE_SKILLED",
+      "Document_Type__c": "@DT_EMPCONTRACT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 3,
+      "Instructions__c": "Must state gross annual salary and weekly hours."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_048"
+      },
+      "Application_Type__c": "@AT_DE_SKILLED",
+      "Document_Type__c": "@DT_HEALTHINS",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 4,
+      "Instructions__c": "Statutory or equivalent private cover."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_049"
+      },
+      "Application_Type__c": "@AT_DE_SKILLED",
+      "Document_Type__c": "@DT_CV",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 5,
+      "Instructions__c": "Tabular, in German or English."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_050"
+      },
+      "Application_Type__c": "@AT_DE_SKILLED",
+      "Document_Type__c": "@DT_LANGTEST",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": false,
+      "Sort_Order__c": 6,
+      "Instructions__c": "Goethe or telc certificate where the role requires German."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_051"
+      },
+      "Application_Type__c": "@AT_DE_SKILLED",
+      "Document_Type__c": "@DT_BIRTHCERT",
+      "Applies_To__c": "Each Dependent",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 7,
+      "Instructions__c": "One per accompanying dependent."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_052"
+      },
+      "Application_Type__c": "@AT_DE_BLUECARD",
+      "Document_Type__c": "@DT_PASSPORT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 1
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_053"
+      },
+      "Application_Type__c": "@AT_DE_BLUECARD",
+      "Document_Type__c": "@DT_DEGREE",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 2,
+      "Instructions__c": "Must be recognised or comparable under ANABIN."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_054"
+      },
+      "Application_Type__c": "@AT_DE_BLUECARD",
+      "Document_Type__c": "@DT_EMPCONTRACT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 3,
+      "Instructions__c": "Salary must meet the current Blue Card threshold."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_055"
+      },
+      "Application_Type__c": "@AT_DE_BLUECARD",
+      "Document_Type__c": "@DT_HEALTHINS",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 4
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_056"
+      },
+      "Application_Type__c": "@AT_DE_BLUECARD",
+      "Document_Type__c": "@DT_MARRCERT",
+      "Applies_To__c": "Spouse",
+      "Is_Mandatory__c": false,
+      "Sort_Order__c": 5,
+      "Instructions__c": "Where a spouse accompanies."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_057"
+      },
+      "Application_Type__c": "@AT_GB_SKILLED",
+      "Document_Type__c": "@DT_PASSPORT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 1
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_058"
+      },
+      "Application_Type__c": "@AT_GB_SKILLED",
+      "Document_Type__c": "@DT_JOBOFFER",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 2,
+      "Instructions__c": "Certificate of Sponsorship reference from a licensed sponsor."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_059"
+      },
+      "Application_Type__c": "@AT_GB_SKILLED",
+      "Document_Type__c": "@DT_LANGTEST",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 3,
+      "Instructions__c": "Approved Secure English Language Test."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_060"
+      },
+      "Application_Type__c": "@AT_GB_SKILLED",
+      "Document_Type__c": "@DT_BANKSTMT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 4,
+      "Max_Age_Days__c": 90,
+      "Instructions__c": "Maintenance funds held for 28 consecutive days."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_061"
+      },
+      "Application_Type__c": "@AT_GB_SKILLED",
+      "Document_Type__c": "@DT_PCC",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": false,
+      "Sort_Order__c": 5,
+      "Max_Age_Days__c": 180,
+      "Instructions__c": "Required for certain occupations only."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_062"
+      },
+      "Application_Type__c": "@AT_GB_SETM",
+      "Document_Type__c": "@DT_PASSPORT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 1
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_063"
+      },
+      "Application_Type__c": "@AT_GB_SETM",
+      "Document_Type__c": "@DT_MARRCERT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 2
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_064"
+      },
+      "Application_Type__c": "@AT_GB_SETM",
+      "Document_Type__c": "@DT_BANKSTMT",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 3,
+      "Max_Age_Days__c": 90,
+      "Instructions__c": "Six months of statements evidencing the financial requirement."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_065"
+      },
+      "Application_Type__c": "@AT_GB_SETM",
+      "Document_Type__c": "@DT_LANGTEST",
+      "Applies_To__c": "Principal Applicant",
+      "Is_Mandatory__c": true,
+      "Sort_Order__c": 4,
+      "Instructions__c": "Level B1 or above."
+    },
+    {
+      "attributes": {
+        "type": "Requirement__c",
+        "referenceId": "REQ_066"
+      },
+      "Application_Type__c": "@AT_GB_SETM",
+      "Document_Type__c": "@DT_EMPREF",
+      "Applies_To__c": "Sponsor",
+      "Is_Mandatory__c": false,
+      "Sort_Order__c": 5,
+      "Instructions__c": "Sponsor employment evidence where relying on employment income."
+    }
+  ]
+}

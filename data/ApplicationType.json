@@ -1,0 +1,196 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Application_Type__c",
+        "referenceId": "AT_CA_PR_EE"
+      },
+      "Name": "Permanent Residence - Express Entry",
+      "Form_Code__c": "IMM 0008",
+      "Authority__c": "a00Qy00002gJ5vdIAC",
+      "Category__c": "Work",
+      "Standard_Processing_Days__c": 180,
+      "Base_Fee_Amount__c": 1365,
+      "Biometrics_Required__c": true,
+      "Medical_Exam_Required__c": true,
+      "Guidance_URL__c": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Application_Type__c",
+        "referenceId": "AT_CA_SPOUSE"
+      },
+      "Name": "Family Sponsorship - Spouse or Partner",
+      "Form_Code__c": "IMM 1344",
+      "Authority__c": "a00Qy00002gJ5vdIAC",
+      "Category__c": "Family",
+      "Standard_Processing_Days__c": 365,
+      "Base_Fee_Amount__c": 1205,
+      "Biometrics_Required__c": true,
+      "Medical_Exam_Required__c": true,
+      "Guidance_URL__c": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship.html",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Application_Type__c",
+        "referenceId": "AT_CA_STUDY"
+      },
+      "Name": "Study Permit",
+      "Form_Code__c": "IMM 1294",
+      "Authority__c": "a00Qy00002gJ5vdIAC",
+      "Category__c": "Study",
+      "Standard_Processing_Days__c": 56,
+      "Base_Fee_Amount__c": 150,
+      "Biometrics_Required__c": true,
+      "Medical_Exam_Required__c": true,
+      "Guidance_URL__c": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Application_Type__c",
+        "referenceId": "AT_CA_CITIZEN"
+      },
+      "Name": "Grant of Citizenship - Adult",
+      "Form_Code__c": "CIT 0002",
+      "Authority__c": "a00Qy00002gJ5vdIAC",
+      "Category__c": "Citizenship",
+      "Standard_Processing_Days__c": 270,
+      "Base_Fee_Amount__c": 630,
+      "Biometrics_Required__c": true,
+      "Medical_Exam_Required__c": false,
+      "Guidance_URL__c": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship.html",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Application_Type__c",
+        "referenceId": "AT_US_I130"
+      },
+      "Name": "Petition for Alien Relative",
+      "Form_Code__c": "I-130",
+      "Authority__c": "a00Qy00002gJ5veIAC",
+      "Category__c": "Family",
+      "Standard_Processing_Days__c": 420,
+      "Base_Fee_Amount__c": 675,
+      "Biometrics_Required__c": true,
+      "Medical_Exam_Required__c": false,
+      "Guidance_URL__c": "https://www.uscis.gov/i-130",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Application_Type__c",
+        "referenceId": "AT_US_I485"
+      },
+      "Name": "Register Permanent Residence or Adjust Status",
+      "Form_Code__c": "I-485",
+      "Authority__c": "a00Qy00002gJ5veIAC",
+      "Category__c": "Family",
+      "Standard_Processing_Days__c": 340,
+      "Base_Fee_Amount__c": 1440,
+      "Biometrics_Required__c": true,
+      "Medical_Exam_Required__c": true,
+      "Guidance_URL__c": "https://www.uscis.gov/i-485",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Application_Type__c",
+        "referenceId": "AT_US_I765"
+      },
+      "Name": "Application for Employment Authorization",
+      "Form_Code__c": "I-765",
+      "Authority__c": "a00Qy00002gJ5veIAC",
+      "Category__c": "Work",
+      "Standard_Processing_Days__c": 150,
+      "Base_Fee_Amount__c": 520,
+      "Biometrics_Required__c": true,
+      "Medical_Exam_Required__c": false,
+      "Guidance_URL__c": "https://www.uscis.gov/i-765",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Application_Type__c",
+        "referenceId": "AT_US_N400"
+      },
+      "Name": "Application for Naturalization",
+      "Form_Code__c": "N-400",
+      "Authority__c": "a00Qy00002gJ5veIAC",
+      "Category__c": "Citizenship",
+      "Standard_Processing_Days__c": 300,
+      "Base_Fee_Amount__c": 760,
+      "Biometrics_Required__c": true,
+      "Medical_Exam_Required__c": false,
+      "Guidance_URL__c": "https://www.uscis.gov/n-400",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Application_Type__c",
+        "referenceId": "AT_DE_SKILLED"
+      },
+      "Name": "Skilled Worker Residence Permit",
+      "Form_Code__c": "AufenthG-18b",
+      "Authority__c": "a00Qy00002gJ5vgIAC",
+      "Category__c": "Work",
+      "Standard_Processing_Days__c": 90,
+      "Base_Fee_Amount__c": 75,
+      "Biometrics_Required__c": true,
+      "Medical_Exam_Required__c": false,
+      "Guidance_URL__c": "https://www.make-it-in-germany.com",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Application_Type__c",
+        "referenceId": "AT_DE_BLUECARD"
+      },
+      "Name": "EU Blue Card",
+      "Form_Code__c": "AufenthG-18g",
+      "Authority__c": "a00Qy00002gJ5vgIAC",
+      "Category__c": "Work",
+      "Standard_Processing_Days__c": 90,
+      "Base_Fee_Amount__c": 100,
+      "Biometrics_Required__c": true,
+      "Medical_Exam_Required__c": false,
+      "Guidance_URL__c": "https://www.make-it-in-germany.com",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Application_Type__c",
+        "referenceId": "AT_GB_SKILLED"
+      },
+      "Name": "Skilled Worker Visa",
+      "Form_Code__c": "GB-SKILLED",
+      "Authority__c": "a00Qy00002gJ5vfIAC",
+      "Category__c": "Work",
+      "Standard_Processing_Days__c": 56,
+      "Base_Fee_Amount__c": 719,
+      "Biometrics_Required__c": true,
+      "Medical_Exam_Required__c": false,
+      "Guidance_URL__c": "https://www.gov.uk/skilled-worker-visa",
+      "Is_Active__c": true
+    },
+    {
+      "attributes": {
+        "type": "Application_Type__c",
+        "referenceId": "AT_GB_SETM"
+      },
+      "Name": "Indefinite Leave to Remain - Spouse",
+      "Form_Code__c": "SET(M)",
+      "Authority__c": "a00Qy00002gJ5vfIAC",
+      "Category__c": "Family",
+      "Standard_Processing_Days__c": 180,
+      "Base_Fee_Amount__c": 2885,
+      "Biometrics_Required__c": true,
+      "Medical_Exam_Required__c": false,
+      "Guidance_URL__c": "https://www.gov.uk/settle-in-the-uk",
+      "Is_Active__c": true
+    }
+  ]
+}

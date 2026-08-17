@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Portal_Status_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>SUBSTITUTE( Application_Type__r.Authority__r.Status_URL_Pattern__c , &apos;{0}&apos;,  Receipt_Reference_Number__c )</formula>
+    <label>Portal Status URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

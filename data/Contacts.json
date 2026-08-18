@@ -1,0 +1,69 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "CON_AMIRA"
+      },
+      "FirstName": "Amira",
+      "LastName": "Benali",
+      "AccountId": "@ACC_BENALI",
+      "Email": "amira.benali@example.org",
+      "Birthdate": "1991-04-12"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "CON_KARIM"
+      },
+      "FirstName": "Karim",
+      "LastName": "Benali",
+      "AccountId": "@ACC_BENALI",
+      "Email": "karim.benali@example.org",
+      "Birthdate": "1989-11-03"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "CON_LINA"
+      },
+      "FirstName": "Lina",
+      "LastName": "Benali",
+      "AccountId": "@ACC_BENALI",
+      "Birthdate": "2017-06-28"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "CON_CHIDI"
+      },
+      "FirstName": "Chidi",
+      "LastName": "Okonkwo",
+      "AccountId": "@ACC_OKONKWO",
+      "Email": "chidi.okonkwo@example.org",
+      "Birthdate": "1994-02-19"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "CON_SOFIA"
+      },
+      "FirstName": "Sofia",
+      "LastName": "Reyes",
+      "AccountId": "@ACC_REYES",
+      "Email": "sofia.reyes@example.org",
+      "Birthdate": "1993-09-07"
+    },
+    {
+      "attributes": {
+        "type": "Contact",
+        "referenceId": "CON_DANIEL"
+      },
+      "FirstName": "Daniel",
+      "LastName": "Reyes",
+      "AccountId": "@ACC_REYES",
+      "Email": "daniel.reyes@example.org",
+      "Birthdate": "1990-01-22"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Case_Team_Member__c",
+        "referenceId": "CTM_AMIRA"
+      },
+      "Immigration_Case__c": "@CASE_BENALI",
+      "Contact__c": "@CON_AMIRA",
+      "Role__c": "Applicant",
+      "Is_Dependent__c": false,
+      "Access_Level__c": "Edit"
+    },
+    {
+      "attributes": {
+        "type": "Case_Team_Member__c",
+        "referenceId": "CTM_KARIM"
+      },
+      "Immigration_Case__c": "@CASE_BENALI",
+      "Contact__c": "@CON_KARIM",
+      "Role__c": "Spouse",
+      "Is_Dependent__c": true,
+      "Access_Level__c": "Edit"
+    },
+    {
+      "attributes": {
+        "type": "Case_Team_Member__c",
+        "referenceId": "CTM_LINA"
+      },
+      "Immigration_Case__c": "@CASE_BENALI",
+      "Contact__c": "@CON_LINA",
+      "Role__c": "Child",
+      "Is_Dependent__c": true,
+      "Access_Level__c": "Read"
+    },
+    {
+      "attributes": {
+        "type": "Case_Team_Member__c",
+        "referenceId": "CTM_CHIDI"
+      },
+      "Immigration_Case__c": "@CASE_OKONKWO",
+      "Contact__c": "@CON_CHIDI",
+      "Role__c": "Applicant",
+      "Is_Dependent__c": false,
+      "Access_Level__c": "Edit"
+    },
+    {
+      "attributes": {
+        "type": "Case_Team_Member__c",
+        "referenceId": "CTM_SOFIA"
+      },
+      "Immigration_Case__c": "@CASE_REYES",
+      "Contact__c": "@CON_SOFIA",
+      "Role__c": "Applicant",
+      "Is_Dependent__c": false,
+      "Access_Level__c": "Edit"
+    },
+    {
+      "attributes": {
+        "type": "Case_Team_Member__c",
+        "referenceId": "CTM_DANIEL"
+      },
+      "Immigration_Case__c": "@CASE_REYES",
+      "Contact__c": "@CON_DANIEL",
+      "Role__c": "Sponsor",
+      "Is_Dependent__c": false,
+      "Access_Level__c": "Read"
+    }
+  ]
+}

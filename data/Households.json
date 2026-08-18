@@ -1,0 +1,25 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "ACC_BENALI"
+      },
+      "Name": "Benali Household"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "ACC_OKONKWO"
+      },
+      "Name": "Okonkwo Household"
+    },
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "ACC_REYES"
+      },
+      "Name": "Reyes Household"
+    }
+  ]
+}

@@ -1,34 +1,50 @@
 [
   {
-    "sobject": "Authority__c",
+    "sobject": "Account",
     "saveRefs": true,
     "resolveRefs": false,
     "files": [
-      "Authority.json"
+      "Households.json"
     ]
   },
   {
-    "sobject": "Document_Type__c",
-    "saveRefs": true,
-    "resolveRefs": false,
-    "files": [
-      "DocumentType.json"
-    ]
-  },
-  {
-    "sobject": "Application_Type__c",
+    "sobject": "Contact",
     "saveRefs": true,
     "resolveRefs": true,
     "files": [
-      "ApplicationType.json"
+      "Contacts.json"
     ]
   },
   {
-    "sobject": "Requirement__c",
+    "sobject": "Immigration_Case__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": [
+      "ImmigrationCases.json"
+    ]
+  },
+  {
+    "sobject": "Case_Team_Member__c",
     "saveRefs": false,
     "resolveRefs": true,
     "files": [
-      "Requirement.json"
+      "CaseTeamMembers.json"
+    ]
+  },
+  {
+    "sobject": "Application__c",
+    "saveRefs": false,
+    "resolveRefs": true,
+    "files": [
+      "Applications.json"
+    ]
+  },
+  {
+    "sobject": "Document__c",
+    "saveRefs": false,
+    "resolveRefs": true,
+    "files": [
+      "Documents.json"
     ]
   }
 ]

@@ -1,0 +1,43 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Immigration_Case__c",
+        "referenceId": "CASE_BENALI"
+      },
+      "Primary_Applicant__c": "@CON_AMIRA",
+      "Household__c": "@ACC_BENALI",
+      "Destination_Country__c": "CA",
+      "Objective__c": "Permanent Residence",
+      "Stage__c": "In Review",
+      "Opened_Date__c": "2026-01-12",
+      "Target_Completion_Date__c": "2026-11-30"
+    },
+    {
+      "attributes": {
+        "type": "Immigration_Case__c",
+        "referenceId": "CASE_OKONKWO"
+      },
+      "Primary_Applicant__c": "@CON_CHIDI",
+      "Household__c": "@ACC_OKONKWO",
+      "Destination_Country__c": "DE",
+      "Objective__c": "Temporary Residence",
+      "Stage__c": "Filed",
+      "Opened_Date__c": "2026-05-04",
+      "Target_Completion_Date__c": "2026-10-15"
+    },
+    {
+      "attributes": {
+        "type": "Immigration_Case__c",
+        "referenceId": "CASE_REYES"
+      },
+      "Primary_Applicant__c": "@CON_SOFIA",
+      "Household__c": "@ACC_REYES",
+      "Destination_Country__c": "US",
+      "Objective__c": "Family Reunification",
+      "Stage__c": "Preparing",
+      "Opened_Date__c": "2026-07-21",
+      "Target_Completion_Date__c": "2027-09-30"
+    }
+  ]
+}

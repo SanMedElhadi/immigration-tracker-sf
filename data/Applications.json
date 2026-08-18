@@ -1,0 +1,39 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Application__c",
+        "referenceId": "APP_BENALI_EE"
+      },
+      "Immigration_Case__c": "@CASE_BENALI",
+      "Application_Type__c": "a01Qy00002HTaUwIAL",
+      "Applicant__c": "@CON_AMIRA",
+      "Receipt_Reference_Number__c": "DEMO-EE-4417802",
+      "Status__c": "Additional Info Requested",
+      "Submitted_Date__c": "2026-03-02",
+      "Acknowledged_Date__c": "2026-03-18"
+    },
+    {
+      "attributes": {
+        "type": "Application__c",
+        "referenceId": "APP_OKONKWO_BC"
+      },
+      "Immigration_Case__c": "@CASE_OKONKWO",
+      "Application_Type__c": "a01Qy00002HTaV5IAL",
+      "Applicant__c": "@CON_CHIDI",
+      "Receipt_Reference_Number__c": "DEMO-BC-2026-0518",
+      "Status__c": "Submitted",
+      "Submitted_Date__c": "2026-06-11"
+    },
+    {
+      "attributes": {
+        "type": "Application__c",
+        "referenceId": "APP_REYES_I130"
+      },
+      "Immigration_Case__c": "@CASE_REYES",
+      "Application_Type__c": "a01Qy00002HTaV0IAL",
+      "Applicant__c": "@CON_SOFIA",
+      "Status__c": "Gathering Documents"
+    }
+  ]
+}
